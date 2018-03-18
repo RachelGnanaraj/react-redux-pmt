@@ -1,0 +1,24 @@
+@import "_variables.scss";
+
+.items-list-component {
+  .title {
+    font-weight: bold;
+    max-width: 560px;
+
+    &.complete {
+      color: #ccc;
+      text-decoration: line-through;
+    }
+  }
+
+  .buttons-wrapper {
+    display: flex !important;
+    height: 100% !important;
+    align-items: center;
+    justify-content: center;
+
+    &.tick {
+      margin-right: 80px;
+    }
+  }
+}

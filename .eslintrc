@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "react-app"
+  ],
+  "plugins": [],
+  "rules": {
+    "semi": ["warn", "always"],
+    "comma-dangle": ["warn", "always-multiline"],
+    "indent": ["warn", 2],
+    "quotes": ["warn", "single", { "allowTemplateLiterals": true }],
+    "no-console": ["warn", { "allow": ["info", "warn", "error"] }]
+  },
+  "settings": {}
+}

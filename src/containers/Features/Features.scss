@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+.features-component {
+  .placeholder {
+    text-align: center;
+    padding: 32px 0;
+    color: #999;
+  }
+  .no-results {
+    text-align: center;
+    padding-top: 32px;
+    color: #999;
+  }
+  .search-wrapper {
+    margin-bottom: 16px;
+  }
+}
