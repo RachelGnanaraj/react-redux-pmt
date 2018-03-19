@@ -8,7 +8,7 @@ export class ErrorBoundary extends React.PureComponent {
   };
 
   componentDidCatch(error, info) {
-    // Display fallback UI
+    // To Display fallback UI
     this.setState({
       hasError: true,
     });
@@ -17,7 +17,6 @@ export class ErrorBoundary extends React.PureComponent {
 
   render() {
     if (this.state.hasError) {
-      // You can render any custom fallback UI
       return <h1>Something went wrong.</h1>;
     }
     return this.props.children;
