@@ -1,26 +1,23 @@
-# react-simple-pmt
+# react-redux-pmt
 A simple project management tool comprising projects, features and to-do list
 
-The Working Application hosted here:
+The end-result can be viewed here:
 
-https://react-simple-pmt.herokuapp.com/
+> https://react-simple-pmt.herokuapp.com/
 
 Features covered:
 
-Add, Edit, Delete - Projects/Features/Todos
+* Add, Edit, Delete - Projects/Features/Todos
 
-Search - Filter Projects/Features/Todos
+* Search - Filter Projects/Features/Todos
 
-Sorting
+* Sorting
 
+To build the project in local, run:
 
-For local setup
-
-1. yarn install or npm install
-
-2. npm start
-
-3. The application will start in localhost
-
-
-Please find the documentation covering wireframe ui/ux issue on given assessment in /docs folder
+```
+git clone https://github.com/RachelGnanaraj/react-redux-pmt.git
+npm install or yarn install
+npm start
+Application starts in localhost
+```
